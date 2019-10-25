@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row mt-5">
+
+
+         <div class="col-md-6">
+                <app-liste (selectoneperson)="selectperson($event)"  [personnes]="personnes"></app-liste>
+         </div>
+         <div class="col-md-6">
+               
+                <app-details [selectedperson]="selectedperson"></app-details>
+            </div>
+
+
+    </div>
+
+
+
+
+
+
+</div>
